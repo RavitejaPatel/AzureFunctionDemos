@@ -5,7 +5,7 @@
 Enable-PSRemoting -Force
 
 # Create firewall rule for WinRM. The default HTTPS port is 5986 
-New-NetFirewallRule -Name "WinRM HTTPS" `
+New-NetFirewallRule -Name nRM HTTPS" `
                     -DisplayName "WinRM HTTPS" `
                     -Enabled True `
                     -Profile "Any" `
